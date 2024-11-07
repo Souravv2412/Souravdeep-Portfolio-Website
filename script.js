@@ -35,15 +35,15 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["HackerRank-ProjectEuler (Top 4%)", "Certified Web Developer", "Data Analytics Student", "Freelancer"],
-        typeSpeed: 45,
+        strings: ["Certified Web Developer", "Data Analytics Student", "Freelancer"],
+        typeSpeed: 50,
         backSpeed: 30,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Logo Designing", "Vidio Editing", "Image Editing", "Presentation"],
-        typeSpeed: 45,
+        strings: ["Programming", "Data Visualization", "Statistical Analysis", "Business Acumen"],
+        typeSpeed: 50,
         backSpeed: 30,
         loop: true
     });
