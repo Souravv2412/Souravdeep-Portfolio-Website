@@ -160,44 +160,22 @@ section .title::after{
 .scroll-up-btn:hover{
     filter: brightness(90%);
 }
+
+
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/Banner22.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
-    background-size: cover;
+    background-size:98%;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
-    position: relative; /* Positioning context for the video */
-}
-.background-video {
-    width: 5px; /* Set the video width */
-    height: 490px; /* Maintain aspect ratio */
-    margin-left: 160px; /* Adjusted space between text and video */
-    z-index: 0; /* Keep the video behind the content */
-    display: block; /* Prevent any inline spacing */
-    outline: none; /* Remove any outline */
-    border-radius: 8px; /* Optional: Add border radius */
-}
-.max-width video {
-    width: 850px;
-    display: flex;
-    justify-content:flex-end; /* Aligns content to the sides */
-    align-items: right; /* Centers vertically */
-    z-index: 0;
 }
 .home .max-width{
   width: 100%;
   display: flex;
-  justify-content: space-between; /* Aligns content to the sides */
-  align-items: center; /* Centers vertically */
-  z-index: 1; /* Ensures content is above the background image */
-}
-.home-content {
-    max-width: 50%; /* Limit the content width */
-    padding: 20px; /* Add some padding */
 }
 .home .max-width .row{
   margin-right: 0;
@@ -235,23 +213,6 @@ section .title::after{
     background: none;
 }
 
-#replayButton {
-    margin-top: 10px; /* Space between the button and the video */
-    margin-left: 500px;
-    padding: 10px 20px; 
-    background-color: crimson; 
-    color: white; 
-    border: none; 
-    border-radius: 5px; 
-    cursor: pointer; 
-    font-size: 15px; 
-    transition: background-color 0.5s ease;
-}
-
-#replayButton:hover {
-    background-color: rgb(118, 0, 0); /* Change color on hover */
-}
-
 /* about section styling */
 .about .title::after{
     content: "who i am";
@@ -260,8 +221,8 @@ section .title::after{
     width: 45%;
 }
 .about .about-content .left img{
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     object-fit: cover;
     border-radius: 6px;
 }
