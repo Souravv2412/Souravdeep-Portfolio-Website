@@ -35,7 +35,7 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["HackerRank-ProjectEuler (Top 4%)", "Certified Web Developer", "Data Analytics for Business Student", "Freelancer"],
+        strings: ["HackerRank-ProjectEuler (Top 4%)", "Certified Web Developer", "Data Analytics Student", "Freelancer"],
         typeSpeed: 45,
         backSpeed: 30,
         loop: true
